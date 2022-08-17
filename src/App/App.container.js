@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useMutation, gql, useQuery } from '@apollo/client';
 
 import App from './App';

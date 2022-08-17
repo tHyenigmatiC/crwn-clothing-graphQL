@@ -21,12 +21,6 @@ const GET_COLLECTIONS = gql`
     }
 `;
 
-const GET_CURRENT_USER = gql`
-    {
-        currentUser @client
-    }
-`;
-
 const CollectionsOverviewContainer = () => {
     const { loading, error, data } = useQuery(GET_COLLECTIONS);
     
