@@ -1,0 +1,9 @@
+Query ( Get data from database or cache):
+    It is query that is used to fetch data from the graphql database or apollo local cache.
+
+Mutation ( Modify data or cache):
+    It is simply any code that is not trying to read against the data.
+    We can write against the data, update data , delete data.
+
+Apollo helps us to store cache of local data so that we avoid fetching same data from database
+multiple times.
